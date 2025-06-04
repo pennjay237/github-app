@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.search-container input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+}
+
+.search-container button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #00b894;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #019875;
+}
+
+.profile-card {
+  background-color: #1e272e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 400px;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+.profile-card h2 {
+  margin: 0.5rem 0;
+}
+
+.profile-card p {
+  margin: 0.25rem 0;
+}
+
+.profile-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0984e3;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.profile-card a:hover {
+  background-color: #74b9ff;
+}
+
+.error-message {
+  color: #fab1a0;
+  margin-top: 1rem;
+}
