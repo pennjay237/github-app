@@ -10,7 +10,10 @@
 <body>
   <h1><i class="fab fa-github"></i> GitHub Profile Viewer</h1>
   <div class="search-container">
-    <input type="text" id="username" placeholder="Enter GitHub username" />
+    <div class="autocomplete">
+      <input type="text" id="username" placeholder="Enter GitHub username" oninput="searchSuggestions()" />
+      <ul id="suggestions"></ul>
+    </div>
     <button onclick="fetchProfile()">Search</button>
   </div>
   <div id="profile"></div>
